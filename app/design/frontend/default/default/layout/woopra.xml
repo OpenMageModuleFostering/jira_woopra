@@ -13,7 +13,7 @@
  * - We need to initialize Woopra-block twice, to make it work
  */
 -->
-<layout version="0.1.0">
+<layout version="1.0.1">
     <default>
         <!--<block type="woopra/script"/>-->
 
