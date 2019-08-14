@@ -1,148 +1,20 @@
-<_>
-   <form_key>WYwgd975ZPtui3d9</form_key>
-   <name>Jira_Woopra</name>
-   <channel>connect.magentocommerce.com/community</channel>
-   <summary>This module integrates Magento with Woopra</summary>
-   <description>This module integrates Magento with Woopra</description>
-   <license>OSL v3.0</license>
-   <license_uri>http://www.opensource.org/licenses/osl-3.0.php</license_uri>
-   <release_version>1.0.2</release_version>
-   <api_version>1.0.2</api_version>
-   <release_stability>stable</release_stability>
-   <api_stability>stable</api_stability>
-   <notes>fs</notes>
-   <maintainers>
-      <role>
-         <role>lead</role>
-         <role>lead</role>
-      </role>
-      <name>
-         <name/>
-         <name>Jisse Reitsma</name>
-      </name>
-      <handle>
-         <handle/>
-         <handle/>
-      </handle>
-      <email>
-         <email/>
-         <email>jisse@jira.nl</email>
-      </email>
-      <active>
-         <active>0</active>
-         <active>1</active>
-      </active>
-   </maintainers>
-   <depends_php_min>5.2.0</depends_php_min>
-   <depends_php_max>6.0.0</depends_php_max>
-   <depends_php_recommended/>
-   <depends_php_exclude/>
-   <depends>
-      <package>
-         <name>
-            <name/>
-         </name>
-         <channel>
-            <channel/>
-         </channel>
-         <min>
-            <min/>
-         </min>
-         <max>
-            <max/>
-         </max>
-         <recommended>
-            <recommended/>
-         </recommended>
-         <exclude>
-            <exclude/>
-         </exclude>
-         <type>
-            <type>required</type>
-         </type>
-      </package>
-      <subpackage>
-         <name>
-            <name/>
-         </name>
-         <channel>
-            <channel/>
-         </channel>
-         <min>
-            <min/>
-         </min>
-         <max>
-            <max/>
-         </max>
-         <recommended>
-            <recommended/>
-         </recommended>
-         <exclude>
-            <exclude/>
-         </exclude>
-         <type>
-            <type>required</type>
-         </type>
-      </subpackage>
-      <extension>
-         <name>
-            <name>PDO</name>
-         </name>
-         <min>
-            <min/>
-         </min>
-         <max>
-            <max/>
-         </max>
-         <recommended>
-            <recommended/>
-         </recommended>
-         <exclude>
-            <exclude/>
-         </exclude>
-         <type>
-            <type>required</type>
-         </type>
-      </extension>
-   </depends>
-   <contents>
-      <role>
-         <role>magelocal</role>
-         <role>magecommunity</role>
-         <role>magedesign</role>
-         <role>magedesign</role>
-         <role>mageetc</role>
-      </role>
-      <path>
-         <path/>
-         <path>Jira/Woopra</path>
-         <path>frontend/default/default/layout/woopra.xml</path>
-         <path>frontend/default/default/template/woopra</path>
-         <path>modules/Jira_Woopra.xml</path>
-      </path>
-      <type>
-         <type>file</type>
-         <type>dir</type>
-         <type>file</type>
-         <type>dir</type>
-         <type>file</type>
-      </type>
-      <include>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-         <include/>
-      </include>
-      <ignore>
-         <ignore/>
-         <ignore/>
-         <ignore/>
-         <ignore/>
-         <ignore/>
-      </ignore>
-   </contents>
-   <page>1</page>
-   <limit>200</limit>
-   <filename/>
-</_>
+<?xml version="1.0"?>
+<!--
+/**
+ * Woopra plugin for Magento 
+ *
+ * @category    design_default
+ * @package     Jira_Woopra
+ * @author      Jisse Reitsma (Jira ICT)
+ * @copyright   Copyright (c) 2009 Jira ICT (http://www.jira.nl/)
+ * @license     Open Software License
+ */
+-->
+<config>
+    <modules>
+        <Jira_Woopra>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Jira_Woopra>
+    </modules>
+</config>
