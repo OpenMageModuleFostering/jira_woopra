@@ -6,8 +6,8 @@
    <description>This module integrates Magento with Woopra</description>
    <license>OSL v3.0</license>
    <license_uri>http://www.opensource.org/licenses/osl-3.0.php</license_uri>
-   <release_version>1.0.1</release_version>
-   <api_version>1.0.1</api_version>
+   <release_version>1.0.2</release_version>
+   <api_version>1.0.2</api_version>
    <release_stability>stable</release_stability>
    <api_stability>stable</api_stability>
    <notes>fs</notes>
