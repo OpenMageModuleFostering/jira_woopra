@@ -27,6 +27,7 @@
     woopra_visitor['avatar'] = '<?php echo $this->getSetting('avatar'); ?>';
     woopra_visitor['company'] = '<?php echo $this->getSetting('company'); ?>';
     woopra_visitor['city'] = '<?php echo $this->getSetting('city'); ?>';
+    var woopra_event = new Array();
     woopra_event['title'] = '<?php echo trim($this->getLayout()->getBlock('head')->getTitle()); ?>';
     var woopra_host = ((document.location.protocol=='https:') ? "https://sec1.woopra.com" : "http://static.woopra.com");
     document.write(unescape("%3Cscript src='" + woopra_host + "/js/woopra.js' type='text/javascript'%3E%3C/script%3E"));

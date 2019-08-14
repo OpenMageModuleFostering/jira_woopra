@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Jira_Woopra</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
@@ -12,7 +12,7 @@
     <authors><author><name>Jisse Reitsma</name><user>auto-converted</user><email>info@jira.nl</email></author></authors>
     <date>2009-05-10</date>
     <time>10:38:57</time>
-    <contents><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="woopra.xml" hash="d9ec97cd38bb00ebe394399b7e34a8a3"/></dir><dir name="template"><dir name="woopra"><file name="script.phtml" hash="b94d61eaa503f1200ceb2bce7d52c617"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Jira"><dir name="Woopra"><dir name="Block"><file name="Script.php" hash="e5ecdb8c2c9e57e122afe1e0f55deb9d"/></dir><dir name="etc"><file name="config.xml" hash="db181e32d4e99f80d50c6aadad358cb3"/><file name="system.xml" hash="28ea9bbe116f4a292ec9bf2a1313c4e4"/></dir><dir name="Helper"><file name="Data.php" hash="1579ee95b1f3e3556ec5fca65856cf05"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jira_Woopra.xml" hash="04c1a2d227f3c84cee9ce233dcd0e64f"/></dir></target></contents>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="woopra.xml" hash="28431225f8506107effa691e085f3806"/></dir><dir name="template"><dir name="woopra"><file name="script.phtml" hash="d3b5091e59801fa5ce509dffb6450bba"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="Jira"><dir name="Woopra"><dir name="Block"><file name="Script.php" hash="e5ecdb8c2c9e57e122afe1e0f55deb9d"/></dir><dir name="etc"><file name="config.xml" hash="1050ad83075c470bd31bacd1c161bdcc"/><file name="system.xml" hash="28ea9bbe116f4a292ec9bf2a1313c4e4"/></dir><dir name="Helper"><file name="Data.php" hash="1579ee95b1f3e3556ec5fca65856cf05"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jira_Woopra.xml" hash="04c1a2d227f3c84cee9ce233dcd0e64f"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>
