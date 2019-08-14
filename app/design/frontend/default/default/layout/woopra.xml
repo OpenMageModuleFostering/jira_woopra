@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Woopra plugin for Magento 
+ *
+ * @category    design_default
+ * @package     Jira_Woopra
+ * @author      Jisse Reitsma (Jira ICT)
+ * @copyright   Copyright (c) 2009 Jira ICT (http://www.jira.nl/)
+ * @license     Open Software License
+ *
+ * @todo
+ * - We need to initialize Woopra-block twice, to make it work
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <!--<block type="woopra/script"/>-->
+
+        <reference name="before_body_end">
+            <block type="woopra/script" name="woopra" as="woopra" template="woopra/script.phtml"/>
+        </reference>
+        
+    </default>
+</layout>

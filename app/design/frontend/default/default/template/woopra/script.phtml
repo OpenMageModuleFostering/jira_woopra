@@ -1,0 +1,35 @@
+<?php
+/**
+ * Woopra plugin for Magento 
+ *
+ * @category    design_default
+ * @package     Jira_Woopra
+ * @author      Jisse Reitsma (Jira ICT)
+ * @copyright   Copyright (c) 2009 Jira ICT (http://www.jira.nl/)
+ * @license     Open Software License
+ *
+ * @todo       
+ * - convert woopra_array into woopra_visitor
+ * - introduce woopra_event['sale'] 
+ * - rewrite SSL-check from JavaScript to PHP-code (Magento class)
+ * - add extra information like woopra_array['fullname'] or woopra_array['']
+ */
+?>
+<!-- BEGIN WOOPRA PLUGIN CODE -->
+<script type="text/javascript" language="javascript">
+<?php if($this->getSetting('test')) { ?>
+    alert('Woopra is installed but in test mode');
+<?php } else { ?>
+    var woopra_id = '<?php echo $this->getSetting('website_id'); ?>';
+    var woopra_visitor = new Array();
+    woopra_visitor['name'] = '<?php echo $this->getSetting('name'); ?>';
+    woopra_visitor['email'] = '<?php echo $this->getSetting('email'); ?>';
+    woopra_visitor['avatar'] = '<?php echo $this->getSetting('avatar'); ?>';
+    woopra_visitor['company'] = '<?php echo $this->getSetting('company'); ?>';
+    woopra_visitor['city'] = '<?php echo $this->getSetting('city'); ?>';
+    woopra_event['title'] = '<?php echo trim($this->getLayout()->getBlock('head')->getTitle()); ?>';
+    var woopra_host = ((document.location.protocol=='https:') ? "https://sec1.woopra.com" : "http://static.woopra.com");
+    document.write(unescape("%3Cscript src='" + woopra_host + "/js/woopra.js' type='text/javascript'%3E%3C/script%3E"));
+<?php } ?>
+</script>
+<!-- END WOOPRA PLUGIN CODE -->
