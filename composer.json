@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Jira_Woopra",
+    "name": "OpenMageModuleFostering\/Jira_Woopra",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This module integrates Magento with Woopra",
     "authors": [
-    {
-        "name": "Jisse Reitsma",
-        "email": "info@jira.nl"
-    }
-],
+        {
+            "name": "Jisse Reitsma",
+            "email": "info@jira.nl"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
